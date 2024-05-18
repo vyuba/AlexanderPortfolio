@@ -1,0 +1,29 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+:root {
+  --primary-bg-light: #F5F5F5;
+  --primary-bg-dark: #0A0711;
+  --text-light: #000;
+  --text-dark: #E0E5F4;
+  --accent-light: #1D1D1D;
+  --accent-dark: #141629;
+}
+
+/*font link*/
+@font-face {
+  font-family: patino;
+  src: url("/font/patinio_futura/Patinio Futura.ttf");
+}
+
+/*body*/
+body{
+  font-family: patino;
+}
+
+/* .project{
+  transition: height 3s;
+} */
